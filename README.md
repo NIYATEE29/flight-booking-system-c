@@ -29,10 +29,10 @@ The program uses two text files to store its data:
 
 ->flights.txt: Stores all the flight records in a comma-separated format.
 
-  Format: flight_id,from,to,time,price,seats
+    Format: flight_id,from,to,time,price,seats
 
 ->passengers.txt: Stores all the passenger booking records.
 
-  Format: name,flight_id,booking_id
+    Format: name,flight_id,booking_id
 
 These files will be created automatically in the same directory where the executable is run if they do not already exist.
